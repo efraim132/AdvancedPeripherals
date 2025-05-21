@@ -168,6 +168,13 @@ minecraft {
 
 repositories {
     mavenCentral()
+    //Modrinth
+    maven {
+        name = "Modrinth"
+        url = "https://api.modrinth.com/maven"
+    }
+
+
     maven {
         name = "Blamejared maven botania patchouli"
         url = 'https://maven.blamejared.com'
@@ -363,8 +370,9 @@ dependencies {
     compileOnly fg.deobf("curse.maven:createaddition-439890:${createadditions_version}")
     runtimeOnly fg.deobf("curse.maven:createaddition-439890:${createadditions_version}")
 
-    // Lightman's Currency
-    implementation fg.deobf("lightmanscurrency:lightmanscurrency-1.20.1-2.2.5.3")
+
+    //Lightman's Currency (obviously)
+    implementation fg.deobf("maven.modrinth:lightmans-currency:${lightmanscurrency_version}")
 }
 
 
