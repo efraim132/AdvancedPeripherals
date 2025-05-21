@@ -1,5 +1,6 @@
 package de.srendi.advancedperipherals.common.addons.lightmanscurrency;
 
+import lightmanscurrency.api.traders.TraderAPI; // TODO: Need to fine the proper import for Trader API and if its even the right one
 import com.lightmanscurrency.common.trades.Trade; //TODO: Replace with the actual import for Trade
 import com.lightmanscurrency.common.trades.TradeManager;
 import dan200.computercraft.api.lua.LuaFunction;
@@ -18,6 +19,8 @@ public class TraderIntegration implements APGenericPeripheral {
     public String getPeripheralType() {
         return "lightmans_currency_trader";
     }
+
+
 
     @LuaFunction(mainThread = true)
     public final List<Map<String, Object>> getTrades() {
