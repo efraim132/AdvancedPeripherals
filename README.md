@@ -18,6 +18,27 @@ mods like **[PeripheralsPlusOne]**.*
 <br>
 <br>
 
+---
+
+## 🚧 In-Progress: Lightman's Currency Integration
+
+We're currently developing integration with **Lightman's Currency**!  
+This will allow peripheral interaction with wallets, shops, and banks.
+
+Planned Features:
+- 🪙 Currency balance reading
+- 🏪 Shop listing and automation
+- 💸 Payment handling and transaction APIs
+- 📦 Multiplayer sync support
+
+Stay tuned for updates as development continues!
+
+---
+
+<br>
+<br>
+
+
 [![Button CurseForge]][CurseForge]   
 [![Button Discord]][Discord]   
 [![Button Documentation]][Documentation]
